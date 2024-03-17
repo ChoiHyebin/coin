@@ -1,0 +1,14 @@
+.tab-container{
+    width: 600px; 
+}
+
+#tabs>ul{ display: flex;}
+#tabs>ul a{ display: block; border:1px solid black;
+    padding: 10px 20px;
+}
+#tabs>ul>li.active a{ 
+    background-color: black;
+    color:#fff;
+}
+.tab-content{ display: none;}
+.tab-content.active{ display: block;}

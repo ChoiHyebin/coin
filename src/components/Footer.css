@@ -1,0 +1,9 @@
+.footer{
+    text-align: center;
+    padding: 30px;
+}
+@media screen and (max-width:1250px){
+    .footer>div{
+        width:100%;
+    }
+}

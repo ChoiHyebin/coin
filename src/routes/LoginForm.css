@@ -1,0 +1,43 @@
+.ref-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.id-form, .pw-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+.id-form>input, .pw-form>input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.pw-check {
+    display: flex;
+    gap: 10px;
+}
+
+.ref-container>button {
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .id-form, .pw-form {
+        width: 100%;
+    }
+
+    .ref-container>button {
+        width: 100%;
+    }
+}

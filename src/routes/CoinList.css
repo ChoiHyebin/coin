@@ -1,0 +1,19 @@
+section.coinlist-container{
+    width:1200px; 
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.coin-box{
+    width: 270px; 
+    margin: 15px;
+    border:1px solid black;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.coin-box img{ width:80%;}

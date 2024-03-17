@@ -1,0 +1,15 @@
+.home-container{
+    width:1200px; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+ 
+@media screen and (max-width:1250px) {
+    .home-container{
+        width: 100%; 
+    }
+}

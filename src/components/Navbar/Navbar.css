@@ -1,0 +1,16 @@
+.navbar-container ul{
+    display: flex;
+}
+.navbar-container a{ 
+    display: block;
+    padding: 10px 50px;
+}
+.navbar-container a:hover{
+    color:red; 
+}
+
+@media screen and (max-width:1000px) {
+    .navbar-container a{  
+        padding: 10px 20px;
+    }
+}

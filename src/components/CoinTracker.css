@@ -1,0 +1,13 @@
+.cointracker-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cointracker-container select{
+    width: 400px;
+}
+
+.cointracker-container img{ width:150px; }

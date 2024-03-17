@@ -1,0 +1,18 @@
+.pager-container,
+.pager{
+    display: flex;
+}
+.pager-container{
+    /* justify-content: center; */
+    width:calc((15px * 2 + 1.5em) * 6);
+    margin:auto;
+}
+/* styled-component : 스타일를 자바스크립트 처럼 사용 */
+.pager-container button,
+.pager a{
+    display: block;
+    padding: 10px 15px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 3px;
+}
